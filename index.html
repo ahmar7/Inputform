@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+        /* background-color: #11193D; */
+    }
+    
+    .website-input {
+        padding: 10px 13px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        font-size: 20px;
+        outline: none;
+    }
+    
+     ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #2564c1;
+        font-family: 'Poppins', sans-serif;
+        font-size: 21px;
+    }
+    
+    .audit-btn {
+        margin-left: 5px;
+        padding: 14px 25px;
+        border-radius: 25px;
+        background-color: #0a975f;
+        color: white;
+        cursor: pointer;
+        border: none;
+        font-size: 18px;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        font-family: Poppins;
+        font-weight: bold;
+    }
+    
+    .audit-btn:hover {
+        background-color: #008d57;
+    }
+    .audit-btn:active {
+        background-color: #077549;
+    }
+    
+    
+    
+    @media (max-width: 400px) {
+        .website-input {
+            padding: 5px 8px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            font-size: 15px;
+            outline: none;
+        }
+        .audit-btn {
+            display: flex;
+            margin-top: 3px;
+            padding: 9px 20px;
+            border-radius: 25px;
+            background-color: #0a975f;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-size: 13px;
+            align-items: center;
+            align-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .main-btn {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+          ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #2564c1;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+    }
+</style>
+
+<body>
+    <input class="website-input" placeholder="Type Your Website URL" type="text">
+    <span class="main-btn"><button class="audit-btn">AUDIT WEBSITE</button></span>
+</body>
+
+</html>
